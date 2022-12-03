@@ -77,9 +77,18 @@
 
 ## 后端配套
 
+本案例使用接口都在springboot-admin项目下,请下载项目，本地运行。
 
 
-请下载springboot-admin项目，本地运行
+HTTPS  --> https://github.com/skingzxl5/springboot-admin.git
+
+SSH  -->  git@github.com:skingzxl5/springboot-admin.git
+
+- 下载代码，后端开发工具 IDEA https://www.jetbrains.com/idea/
+- IDEA 打开代码,选中pom.xml文件打开项目
+- 找到AdminServiceApplication.java 右键运行run 'AdminServiceApplication'
+- 查看代码运行是否正常，http://localhost:9223/doc.html
+
 
 ## 安装
 
