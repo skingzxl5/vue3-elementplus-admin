@@ -1,0 +1,36 @@
+.el-main {
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+.el-dialog__body {
+    padding: 20px;
+}
+
+.sider-container {
+
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+
+    .el-menu {
+        border-width: 0;
+
+        .is-active {
+            color: #FFF !important;
+        }
+
+        .el-menu-item:hover {
+        }
+
+        .el-submenu__title:hover {
+        }
+
+        .el-submenu {
+            .el-menu-item.is-active {
+                color: #FFF !important;
+            }
+        }
+    }
+}
