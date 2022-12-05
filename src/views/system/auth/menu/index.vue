@@ -118,8 +118,8 @@
         <el-form-item label="上级节点" prop="parentId">
           <MenuTree v-model:value="temp.parentId" :menuList="menuList" style="width: 80%" />
         </el-form-item>
-        <el-form-item label="节点路由" prop="router" v-if="temp.type == 1">
-          <el-input v-model="temp.router" placeholder="请输入节点路由" style="width: 80%" />
+        <el-form-item label="节点路由" prop="path" v-if="temp.type == 1">
+          <el-input v-model="temp.path" placeholder="请输入节点路由" style="width: 80%" />
         </el-form-item>
         <el-form-item label="路由缓存" prop="keepAlive" v-if="temp.type == 1">
           <el-radio-group v-model="temp.keepAlive">
@@ -242,6 +242,7 @@ export default {
         type: 0, // 节点类型
         title: "", // 节点标题
         name: "", // 节点名称字段
+        path:"",//节点路由
         parentId: 0, // 上级节点
         isShow: true, // 是否显示
         permission: '', // 按钮权限值
