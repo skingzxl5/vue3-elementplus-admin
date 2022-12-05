@@ -112,6 +112,10 @@ yarn build:prod
 
 启动完成后会自动打开浏览器访问 http://localhost:9601/
 
+## 默认账号
+admin
+123456
+
 ## 沟通交流
 
 微信号:sking5
